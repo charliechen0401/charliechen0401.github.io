@@ -23,3 +23,8 @@ categories_path: category.html
 tags_path: tag.html
 
 BASE_PATH: 
+
+comments :
+    provider : duoshuo
+    duoshuo : 
+      short_name : charliechen0401
