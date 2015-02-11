@@ -1,0 +1,25 @@
+paginate: 3 # pagination based on number of posts
+paginate_path: "page:num" #pagination generated sub path format
+#pygments: true #for support {% highlight %}
+highlighter: pygments
+markdown: kramdown #use kramdown to parse markdown
+encoding: utf-8
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: "Xintao's Space"
+
+description: "Xintao's Space"
+author:
+  name: Xintao Chen
+  email: charliechen0401@gmail.com
+  github: charliechen0401
+
+rss_path: feed.xml
+categories_path: category.html
+tags_path: tag.html
+
+BASE_PATH: 
